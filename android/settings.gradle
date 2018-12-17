@@ -1,0 +1,3 @@
+rootProject.name = 'LifeRithms'
+
+include ':app'
