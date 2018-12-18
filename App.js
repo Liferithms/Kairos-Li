@@ -1,21 +1,11 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
-
+import {Platform, StyleSheet, Text, View, StatusBar} from 'react-native';
+import Onboardig from './src/screens/onboarding/index';
 
 export default class App extends Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text> Hi my name is rotimi and i'm the first developer for lifeRithms</Text>
-      </View>
+      <Onboarding />
     );
   }
 }
